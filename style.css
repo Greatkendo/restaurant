@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Satisfy&family=Young+Serif&display=swap");
+
+/* navigation link styling */
+.nav--bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #a8d08d;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Young Serif", serif;
+}
+
+p,
+a {
+  font-family: "Outfit", serif;
+}
+
+.dol {
+  color: #a8d08d;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.phin {
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+}
+
+.nav--link li a:hover {
+  color: #a8d08d;
+}
+/* **** */
+
+/* hero section styling */
+.hero--section {
+  position: relative;
+  width: 100%;
+  height: 50vh; /* Full height of the viewport */
+  background-image: url("images/plate-img.jpg"); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the area */ /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image tiling */
+  overflow: hidden; /* Prevents any overflow from showing */
+}
+
+@media screen and (min-width: 1043px) {
+  .hero--section {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Full height of the viewport */
+    background-image: url("images/plate-img.jpg"); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the area */ /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image tiling */
+    overflow: hidden; /* Prevents any overflow from showing */
+  }
+}
+.hero--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
+  /* max-width: 60em;
+  margin-inline: auto; */
+}
+
+.cta-button {
+  border: 1px solid #a8d08d;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 1rem;
+  padding-inline: 3rem;
+  border-radius: 3rem;
+  font-family: "Outfit", serif;
+  font-weight: 800;
+  transition: 0.5 ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #a8d08d;
+  transform: scaleX(1.02);
+}
+/* ***** */
+
+/* menu section styling */
+.menu--section {
+  margin-block: 3rem;
+}
+
+.menu--section h2 {
+  text-align: center;
+  color: #a8d08d;
+}
+
+.menu--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-inline: 3rem;
+  margin-block: 3rem;
+}
+
+.menu--card {
+  display: flex;
+  flex-direction: column;
+  max-width: 20em;
+  border: 1px solid #a8d08d;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.menu--card img {
+  border-radius: 2rem;
+}
+
+.menu--card img:hover {
+  transform: scale(1.02);
+}
+/* ***** */
+
+/* about section styling */
+.about--section {
+  margin-bottom: 3rem;
+}
+
+.about--section h2 {
+  text-align: center;
+  color: #a8d08d;
+}
+
+.about--layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  margin-inline: auto;
+  gap: 3rem;
+  background-color: #dfefd4;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+.about--layout img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 1043px) {
+  .about--layout {
+    display: flex;
+    flex-direction: row;
+    max-width: 70em;
+    margin-inline: auto;
+    gap: 3rem;
+    background-color: #dfefd4;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+  }
+  .about--layout img {
+    width: 80%;
+    height: 80vh;
+    border-radius: 1rem;
+  }
+}
+
+/* about content styling */
+.about--content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* call--to--action--button styling */
+.call--to--action--botton {
+  border: 1px solid black;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 1rem;
+  padding-inline: 3rem;
+  border-radius: 3rem;
+  font-family: "Outfit", serif;
+  font-weight: 800;
+  transition: 0.5 ease-in-out;
+}
+
+.call--to--action--botton:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.02);
+}
+/* **** */
+
+/* contact section styling */
+/* .contact--section h2 {
+  text-align: center;
+  color: #a8d08d;
+  margin-bottom: 3rem;
+}
+
+.contact--content{
+  display: flex;
+} */
+/* **** */
+
+/* General body styling */
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+} */
+
+/* Contact section styling */
+.contact--section {
+  width: 100%;
+  max-width: 31.25em;
+  margin-inline: auto;
+  margin-top: 5rem;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact--section h2 {
+  margin-bottom: 1.25rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Form container */
+.contact--content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 2rem;
+}
+
+/* Label styling */
+.contact--content label {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: left;
+}
+
+/* Input and textarea styling */
+.contact--content input[type="text"],
+.contact--content input[type="email"],
+.contact--content input[type="number"],
+.contact--content textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact--content input[type="text"]:focus,
+.contact--content input[type="email"]:focus,
+.contact--content input[type="number"]:focus,
+.contact--content textarea:focus {
+  border-color: #45a049;
+  outline: none;
+}
+
+/* Submit button styling */
+.contact--content input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #a8d08d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* text-transform: uppercase; */
+}
+
+.contact--content input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 500px) {
+  .contact--section {
+    padding: 15px;
+  }
+
+  .contact--section h2 {
+    font-size: 1.5rem;
+  }
+}
+/* **** */
+
+/* footer section styling */
+.footer--section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfefd4;
+  height: 45vh;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1043px) {
+  .footer--section {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #dfefd4;
+    height: 45vh;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.footer--social--icons {
+  font-size: 2rem;
+  padding-right: 0;
+}
+
+.footer--social--icons li {
+  list-style-type: none;
+}
+
+.footer--social--icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer--social--icons a:hover {
+  color: #a8d08d;
+}
+
+.footer--list li {
+  list-style: none;
+}
+
+.footer--list a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer--list a:hover {
+  color: #a8d08d;
+}
+
+/* footer form style */
+
+.footer--form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  margin-block: 1rem;
+}
+
+.footer--form input[type="email"]:focus {
+  border-color: #45a049;
+  outline: none;
+}
+
+.footer--form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #a8d08d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* text-transform: uppercase; */
+}
+
+.footer--form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.footer--copyright--section p {
+  text-align: center;
+  padding: 1rem;
+  background-color: #a8d08d;
+  color: black;
+}
